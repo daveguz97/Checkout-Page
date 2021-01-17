@@ -45,12 +45,37 @@ p {
     font-size: 1.3rem;
 }
 
-label {
-    font-size: .8rem;
-}
-
 .container {
     max-width: $max-width;
     width: 80%;
-    margin: 4rem auto;
+    margin: auto;
+}
+
+label {
+    font-size: 0.8rem;
+}
+
+.form-group input,
+select {
+    min-height: 2rem;
+    min-width: 400px;
+    padding: 0 2.5rem;
+    border: 1px solid $placeholder-color;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 0.8rem 1.8rem;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    background: $btn-color;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        transition: all 0.3s ease;
+        background: lighten($btn-color, 3%);
+    }
 }

@@ -33,10 +33,80 @@ h6 {
 p {
   font-size: 1.3rem; }
 
-label {
-  font-size: .8rem; }
-
 .container {
   max-width: 1080px;
   width: 80%;
-  margin: 4rem auto; }
+  margin: auto; }
+
+label {
+  font-size: 0.8rem; }
+
+.form-group input,
+select {
+  min-height: 2rem;
+  min-width: 400px;
+  padding: 0 2.5rem;
+  border: 1px solid #828282;
+  background: transparent;
+  border-radius: 10px; }
+
+.btn {
+  padding: 0.8rem 1.8rem;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  background: #f2994a;
+  border: none;
+  cursor: pointer; }
+  .btn:hover {
+    transition: all 0.3s ease;
+    background: #f3a158; }
+
+header {
+  margin: 4rem 0; }
+
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .main-section .left-side {
+    width: 40%;
+    padding: 1rem 0; }
+  .main-section .right-side {
+    width: 40%; }
+  .main-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%; }
+  .main-section .form-group {
+    margin: 1rem 0; }
+  .main-section .label-group {
+    margin: 0 .5rem; }
+  .main-section .input-group {
+    position: relative; }
+    .main-section .input-group i {
+      position: absolute;
+      left: 10px;
+      top: 35%;
+      z-index: 2;
+      color: #828282; }
+    .main-section .input-group:last-child i {
+      left: 15px; }
+  .main-section input::-webkit-input-placeholder {
+    color: #828282; }
+  .main-section input::-moz-placeholder {
+    color: #828282; }
+  .main-section input::-ms-placeholder {
+    color: #828282; }
+  .main-section input::placeholder {
+    color: #828282; }
+  .main-section .inline-wrapper {
+    display: flex; }
+  .main-section select,
+  .main-section #postal-code {
+    min-width: 0;
+    max-width: 192px;
+    margin: 0 .5rem; }
+  .main-section .btn {
+    align-self: flex-end; }

@@ -1,2 +1,85 @@
 @import 'variables';
 @import 'config';
+
+header {
+    margin: 4rem 0;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .left-side {
+        width: 40%;
+        padding: 1rem 0;
+    }
+
+    .right-side {
+        width: 40%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .form-group {
+        margin: 1rem 0;
+    }
+
+    .label-group {
+        margin: 0 .5rem;
+    }
+
+    .input-group {
+        position: relative;
+        i {
+            position: absolute;
+            left: 10px;
+            top: 35%;
+            z-index: 2;
+            color: $placeholder-color;
+        }
+
+        &:last-child {
+            i {
+                left: 15px;
+            }
+        }
+    }
+
+    input {
+        &::-webkit-input-placeholder {
+            color: $placeholder-color;
+        }
+        &::-moz-placeholder {
+            color: $placeholder-color;
+        }
+        &::-ms-placeholder {
+            color: $placeholder-color;
+        }
+        &::placeholder {
+            color: $placeholder-color;
+        }
+    }
+
+    .inline-wrapper {
+        display: flex;
+    }
+
+    select,
+    #postal-code {
+        min-width: 0;
+        max-width: 192px;
+        margin: 0 .5rem;
+    }
+
+    .btn {
+        align-self: flex-end;
+    }
+}
+
+@import 'mobile'
