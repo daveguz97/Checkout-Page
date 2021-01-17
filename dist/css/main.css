@@ -48,7 +48,7 @@ label {
 select {
   min-height: 2rem;
   min-width: 400px;
-  padding: 0 2.5rem;
+  padding: .5rem 2.5rem;
   border: 1px solid #828282;
   background: transparent;
   border-radius: 10px; }
@@ -56,12 +56,14 @@ select {
 select, option:first-child {
   color: #4f4f4f; }
 
+form .btn {
+  color: #fff;
+  background: #f2994a; }
+
 .btn {
   padding: 0.8rem 1.8rem;
-  color: #fff;
   font-weight: 600;
   border-radius: 10px;
-  background: #f2994a;
   border: none;
   cursor: pointer; }
   .btn:hover {
@@ -73,7 +75,7 @@ header {
 
 .main-section {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center; }
   .main-section .left-side {
     width: 40%;
