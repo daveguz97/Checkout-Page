@@ -59,6 +59,42 @@ label {
     transition: all .3s ease;
     background-color: lightgray; }
 
+@media screen and (max-width: 950px) {
+  main {
+    overflow-x: hidden; }
+  h1 {
+    font-size: 3.5rem; }
+  h2 {
+    font-size: 3rem; }
+  h3 {
+    font-size: 2.5rem; }
+  h4 {
+    font-size: 2rem; }
+  h5 {
+    font-size: 1.5rem; }
+  h6 {
+    font-size: 1rem; }
+  .main-section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center; }
+    .main-section img {
+      max-width: 100px; }
+    .main-section .left-side {
+      width: 100%;
+      flex-direction: column;
+      align-items: center; }
+    .main-section .right-side {
+      width: 100%; }
+    .main-section .right-side {
+      height: 100%; }
+  .form-group input,
+  select {
+    min-width: 0;
+    width: 100%; }
+  .text-wrapper p:last-child {
+    padding: 0; } }
+
 header {
   margin: 4rem 0; }
 
@@ -79,7 +115,7 @@ header {
   .main-section .form-group input,
   .main-section select {
     min-height: 2rem;
-    min-width: 400px;
+    min-width: 300px;
     padding: 0.5rem 2.5rem;
     border: 1px solid #828282;
     background: transparent;
@@ -129,7 +165,7 @@ header {
     padding: 1rem 0.3rem;
     border-radius: 10px;
     width: 40%;
-    height: 85vh; }
+    height: 80vh; }
   .main-section .item-wrapper {
     width: 100%;
     display: flex;
@@ -155,10 +191,9 @@ header {
         align-items: center;
         justify-content: space-evenly;
         margin-top: 1rem;
-        padding: 1rem;
         border: 1px solid #828282;
         border-radius: 10px;
-        min-width: 200px; }
+        padding: 1rem 3rem; }
   .main-section img {
     max-width: 150px;
     border-radius: 10px; }
@@ -178,3 +213,43 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between; }
+
+footer {
+  text-align: center;
+  padding: 1rem 0; }
+
+@media screen and (max-width: 950px) {
+  main {
+    overflow-x: hidden; }
+  h1 {
+    font-size: 3.5rem; }
+  h2 {
+    font-size: 3rem; }
+  h3 {
+    font-size: 2.5rem; }
+  h4 {
+    font-size: 2rem; }
+  h5 {
+    font-size: 1.5rem; }
+  h6 {
+    font-size: 1rem; }
+  .main-section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center; }
+    .main-section img {
+      max-width: 100px; }
+    .main-section .left-side {
+      width: 100%;
+      flex-direction: column;
+      align-items: center; }
+    .main-section .right-side {
+      width: 100%; }
+    .main-section .right-side {
+      height: 100%; }
+  .form-group input,
+  select {
+    min-width: 0;
+    width: 100%; }
+  .text-wrapper p:last-child {
+    padding: 0; } }

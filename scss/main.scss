@@ -29,7 +29,7 @@ header {
     .form-group input,
     select {
         min-height: 2rem;
-        min-width: 400px;
+        min-width: 300px;
         padding: 0.5rem 2.5rem;
         border: 1px solid $placeholder-color;
         background: transparent;
@@ -111,7 +111,7 @@ header {
         padding: 1rem 0.3rem;
         border-radius: 10px;
         width: 40%;
-        height: 85vh;
+        height: 80vh;
     }
     .item-wrapper {
         width: 100%;
@@ -145,10 +145,9 @@ header {
                 align-items: center;
                 justify-content: space-evenly;
                 margin-top: 1rem;
-                padding: 1rem;
                 border: 1px solid $placeholder-color;
                 border-radius: 10px;
-                min-width: 200px;
+                padding: 1rem 3rem;
             }
         }
     }
@@ -176,6 +175,11 @@ header {
         align-items: center;
         justify-content: space-between;
     }
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
 }
 
 @import 'mobile';
