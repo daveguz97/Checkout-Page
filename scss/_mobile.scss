@@ -31,7 +31,7 @@
         flex-direction: column-reverse;
         align-items: center;
         img {
-            max-width: 100px;
+            max-width: 90%;
         }
         .left-side {
             width: 100%;
@@ -45,18 +45,29 @@
         .right-side {
             height: 100%;
         }
-    }
-
-    .form-group input,
-    select {
-        min-width: 0;
-        width: 100%;
-    }
-    .text-wrapper {
-        p {
-            &:last-child {
-                padding: 0;
+        
+        .form-group input,
+        select {
+            min-width: 0;
+            width: 100%;
+        }
+        .text-wrapper {
+            p {
+                font-size: .8rem;
+                display: flex;
+                &:last-child {
+                    padding: 0;
+                }
             }
         }
+
+        form .btn {
+            margin-top: 1.5rem;
+        }
+        .quantity-wrapper {
+            padding: 1rem 5px;
+        }
     }
+
+
 }
