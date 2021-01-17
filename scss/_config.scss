@@ -41,6 +41,10 @@ h6 {
     font-size: 1.5rem;
 }
 
+h1,h2,h3,h4,h5 {
+    color: $header-color;
+}
+
 p {
     font-size: 1.3rem;
 }
@@ -63,6 +67,10 @@ select {
     border: 1px solid $placeholder-color;
     background: transparent;
     border-radius: 10px;
+}
+
+select, option:first-child {
+    color: $label-color;
 }
 
 .btn {

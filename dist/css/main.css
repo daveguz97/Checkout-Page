@@ -30,6 +30,9 @@ h5 {
 h6 {
   font-size: 1.5rem; }
 
+h1, h2, h3, h4, h5 {
+  color: #4e5150; }
+
 p {
   font-size: 1.3rem; }
 
@@ -49,6 +52,9 @@ select {
   border: 1px solid #828282;
   background: transparent;
   border-radius: 10px; }
+
+select, option:first-child {
+  color: #4f4f4f; }
 
 .btn {
   padding: 0.8rem 1.8rem;
@@ -72,6 +78,8 @@ header {
   .main-section .left-side {
     width: 40%;
     padding: 1rem 0; }
+  .main-section .contact-section {
+    margin-bottom: 4rem; }
   .main-section .right-side {
     width: 40%; }
   .main-section form {
