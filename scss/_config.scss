@@ -41,7 +41,11 @@ h6 {
     font-size: 1.5rem;
 }
 
-h1,h2,h3,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     color: $header-color;
 }
 
@@ -59,44 +63,16 @@ label {
     font-size: 0.8rem;
 }
 
-.form-group input,
-select {
-    min-height: 2rem;
-    min-width: 400px;
-    padding: .5rem 2.5rem;
-    border: 1px solid $placeholder-color;
-    background: transparent;
-    border-radius: 10px;
-}
-
-select, option:first-child {
-    color: $label-color;
-}
-
-form .btn {
-color: #fff;
-background: $secondary-color;
-}
-
 .btn {
     padding: 0.8rem 1.8rem;
-    
     font-weight: 600;
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    background-color: #e0e0e0;
 
     &:hover {
-        transition: all 0.3s ease;
-        background: lighten($secondary-color, 3%);
+        transition: all .3s ease;
+        background-color: darken($color: #e0e0e0, $amount: 5%);
     }
-}
-
-.right-side {
-    background-color: #f2f2f2;
-    padding: 1.5rem;
-    border-radius: 10px;
-}
-.item-wrapper {
-    display: flex;
 }
