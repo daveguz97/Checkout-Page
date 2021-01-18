@@ -170,9 +170,9 @@ header {
     margin: 0 1rem; }
   .main-section .right-side {
     background-color: #f2f2f2;
-    padding: 1rem 0.3rem;
+    margin: 1rem;
     border-radius: 10px;
-    width: 40%;
+    width: 60%;
     height: 80vh; }
   .main-section .item-wrapper {
     width: 100%;
